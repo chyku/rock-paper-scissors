@@ -1,8 +1,17 @@
 <html>
-	<script src="game.js"></script>
+	<head>
+		<script src="game.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css"> 
+	</head>
 	<body>
-		<button onclick="game(0)" id="rock"> ROCK </button>
-		<button onclick="game(1)" id="paper"> PAPER </button>
-		<button onclick="game(2)" id="scissors"> SCISSORS </button>
+		<div class="centered">
+			<div id="results">
+			</div>
+			<div class="buttons">
+				<button onclick="game(0)"> ROCK </button>
+				<button onclick="game(1)"> PAPER </button>
+				<button onclick="game(2)"> SCISSORS </button>
+			</div>
+		</div>
 	</body>
 </html>
